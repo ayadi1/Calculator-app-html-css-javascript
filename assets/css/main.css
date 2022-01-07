@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: var(--main-background);
+  color: var(--text-color);
+}
+main {
+  width: 40%;
+  margin: 0 auto;
+  min-width: 400px;
+  max-width: 400px;
+  margin-top: 50px;
+}
+main .option {
+  display: flex;
+  justify-content: space-between;
+  color: var(--title-text-color);
+}
+main .option .opt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 5px;
+  width: 96px;
+}
+main .screen {
+  width: 100%;
+  height: 75px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 50px;
+  font-size: 30px;
+  background-color: var(--screen-background);
+  color: var(--screen-text-color);
+  margin-bottom: 20px;
+}
+main .calc {
+  padding: 20px;
+  background-color: var(--toggle-background-keypad-background);
+}
+main .numbers {
+  display: grid;
+  gap: 20px;
+  grid-template: repeat(4, 30px) / repeat(4, 1fr);
+}
+
+main .res {
+  background-color: var(--key-background-res) !important;
+  box-shadow: 0px 3px var(--key-shadow-res) !important;
+  color: var(--White-text) !important;
+}
+main .toggle {
+  background-color: var(--key-background-toggle) !important;
+  box-shadow: 0px 3px var(--toggle-key-shadow) !important;
+  color: var(--toggle-text-color) !important;
+}
+main .numbers .grid-item {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--key-background);
+  box-shadow: 0px 3px var(--key-shadow);
+  cursor: pointer;
+}
+main .result {
+  display: grid;
+  gap: 20px;
+  grid-template: 30px / repeat(2, 1fr);
+  margin-top: 20px;
+}
+main .result .grid-item {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.grid-item{
+  position: relative;
+}
+/* footer style */
+footer{
+  text-align: center;
+  color: var(--footer-text-color);
+}

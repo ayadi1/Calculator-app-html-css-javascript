@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      id="stylesheet"
+      href="./assets/css/Theme-3-vars.css"
+    />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body>
+    <main>
+      <div class="option">
+        <h1>calc</h1>
+        <div class="opt">
+          <label for="opt1">1</label>
+          <input type="radio" id="opt1" value="1" name="theme" />
+          <label for="opt3">2</label>
+          <input type="radio" id="opt2" value="2" name="theme" />
+          <label for="opt3">3</label>
+          <input type="radio" checked id="opt3" value="3" name="theme" />
+        </div>
+      </div>
+      <div class="screen" id="screen"></div>
+      <div class="calc">
+        <div class="numbers" id="numbers">
+          <div class="grid-item" id="nb7">7</div>
+          <div class="grid-item" id="nb8">8</div>
+          <div class="grid-item" id="nb9">9</div>
+          <div class="grid-item res" id="nbdel">DEL</div>
+          <div class="grid-item" id="nb4">4</div>
+          <div class="grid-item" id="nb5">5</div>
+          <div class="grid-item" id="nb6">6</div>
+          <div class="grid-item" id="nbAdd">+</div>
+          <div class="grid-item" id="nb1">1</div>
+          <div class="grid-item" id="nb2">2</div>
+          <div class="grid-item" id="nb3">3</div>
+          <div class="grid-item" id="nbMin">-</div>
+          <div class="grid-item" id="nbDot">.</div>
+          <div class="grid-item" id="nb0">0</div>
+          <div class="grid-item" id="nbDev">/</div>
+          <div class="grid-item" id="nbMult">x</div>
+        </div>
+        <div class="result" id="result" >
+          <div id="reset" class="grid-item res">RESET</div>
+          <div id="eql" class="grid-item toggle">=</div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://www.linkedin.com/in/oussama-ayadi1/">oussama ayadi</a>.
+    </footer>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

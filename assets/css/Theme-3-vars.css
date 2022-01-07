@@ -1,0 +1,22 @@
+:root {
+  /* Theme-3-vars.css */
+  /* Backgrounds */
+  --main-background: hsl(268, 75%, 9%);
+  --toggle-background-keypad-background: hsl(268, 71%, 12%);
+  --screen-background: hsl(268, 71%, 12%);
+  /* Keys */
+  --key-background-res: hsl(281, 89%, 26%);
+  --key-shadow-res: hsl(285, 91%, 52%);
+  --key-background-toggle: hsl(176, 100%, 44%);
+  --toggle-key-shadow: hsl(177, 92%, 70%);
+  --key-background: hsl(268, 47%, 21%);
+  --key-shadow: hsl(290, 70%, 36%);
+  /* Text */
+  --text-color: hsl(52, 100%, 62%);
+  --toggle-text-color: hsl(198, 20%, 13%);
+  --White-text: white;
+  --screen-text-color:hsl(52, 100%, 62%);
+  --title-text-color: hsl(52, 100%, 62%);
+
+
+}
